@@ -25,7 +25,7 @@
     background-color: gold;
     height: 50px;
     border-style: dashed;
-    border: 2px dashed black;
+    border: 3px dashed black;
     line-height: 45px;
 }
 
@@ -49,3 +49,22 @@
     width: 60%;
 }
 
+/* MAIN */
+
+/* CONTENITORE BLU + ROSA*/
+.contblue {
+    background-color: blue;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.contpink {
+    background-color: #e82acf;
+    height: 370px;
+    width: 900px;
+    margin: 60px auto;
+    border: 4px dashed black;
+    border-radius: 10px;
+}
