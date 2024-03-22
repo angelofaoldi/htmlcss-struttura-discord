@@ -18,6 +18,14 @@
     background-color: lightgray;
 }
 
+.bg-green {
+    background-color: green;
+}
+
+.bg-darkorchid {
+    background-color: darkorchid;
+}
+
 .text-left {
     text-align: left;
 }
@@ -104,10 +112,12 @@ header {
 .col-100 {
     width: 100%;
     border: 1px solid black;
-    background-color: darkorchid;
     height: 250px;
 }
 
+.height-500 {
+    height: 500px;
+}
 
 
 /* FINE CLASSI DI LAYOUT */
