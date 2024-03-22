@@ -6,8 +6,68 @@
 
 /* CLASSI DI UTILITY */
 
+.bg-lightblue {
+    background-color: lightblue;
+}
 
-.container {
-    height: 100px;
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.unordered-list {
+    list-style-type: none;
+}
+
+.unordered-list li {
+    display: inline-block;
+}
+
+.unordered-list li a {
+     text-decoration: none;
+     color: black;
+}
+
+.padding-10 {
+    padding: 10px 0;
+}
+
+/* FINE CLASSI UTILITY */
+
+
+/*HEADER*/
+
+header {
+    
+    padding: 10px 0;
     background-color: royalblue;
 }
+
+/* CLASSI DI LAYOUT */
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+}
+
+.col-25 {
+    width: 25%;
+    border: 1px dashed black;
+    background-color: orange;
+}
+
+.col-50 {
+    width: 50%;
+    border: 1px dashed black;
+    background-color: orange;
+    text-align: center;
+}
+
+/* FINE CLASSI DI LAYOUT */
