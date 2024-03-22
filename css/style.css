@@ -14,6 +14,10 @@
     background-color: #00005d; 
 }
 
+.bg-lightgray {
+    background-color: lightgray;
+}
+
 .text-left {
     text-align: left;
 }
@@ -76,11 +80,25 @@ header {
     background-color: orange;
 }
 
+.col-40 {
+    width: 40%;
+    border: 1px solid black;
+    background-color: lightskyblue;
+    height: 400px;
+}
+
 .col-50 {
     width: 50%;
     border: 1px dashed black;
     background-color: orange;
     text-align: center;
+}
+
+.col-60 {
+    width: 60%;
+    border: 1px solid black;
+    background-color: brown;
+    height: 400px;
 }
 
 .col-100 {
